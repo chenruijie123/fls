@@ -1,0 +1,112 @@
+.container {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.container .header img {
+  width: 100%;
+  height: 3.73rem;
+}
+
+.container .flag {
+  position: absolute;
+  top: 2.57rem;
+  left: 0.49rem;
+  width: 6.51rem;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0.01px 0px 0.35rem 0px rgba(249, 135, 143, 0.27);
+          box-shadow: 0.01px 0px 0.35rem 0px rgba(249, 135, 143, 0.27);
+  border-radius: 0.24rem;
+  z-index: 9;
+  background-color: #ffffff;
+  padding: 1rem 0.6rem 1rem 0.6rem;
+}
+
+.container .flag .border {
+  border-bottom: 0.02rem solid #d2d2d2;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 5.19rem;
+  padding-bottom: 0.25rem;
+  height: 100%;
+}
+
+.container .flag .border input {
+  margin-left: 0.25rem;
+}
+
+.container .flag .name img {
+  width: 0.31rem;
+  height: 0.35rem;
+}
+
+.container .flag .mobile {
+  margin-top: 0.4rem;
+}
+
+.container .flag .mobile img {
+  width: 0.28rem;
+  height: 0.42rem;
+}
+
+.container .flag .text {
+  font-size: 0.24rem;
+  color: #fc8183;
+  margin: 0.7rem 0 1.6rem 0;
+  line-height: 0.51rem;
+}
+
+.container .flag .btn {
+  width: 5.17rem;
+  height: 0.91rem;
+  background-image: -webkit-gradient(linear, left bottom, left top, from(#fc787a), to(#ffc9c9)), -webkit-gradient(linear, left top, left bottom, from(#aaaaaa), to(#aaaaaa));
+  background-image: linear-gradient(0deg, #fc787a 0%, #ffc9c9 100%), linear-gradient(#aaaaaa, #aaaaaa);
+  border-radius: 0.42rem;
+  font-size: 0.34rem;
+  color: #ffffff;
+  line-height: 0.91rem;
+  text-align: center;
+}
+
+.container .footer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  height: 0.98rem;
+  font-size: 0.2rem;
+  border-top: 0.01rem solid #b4b4b4;
+}
+
+.container .footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .footer img {
+  width: 0.51rem;
+  height: 0.54rem;
+}
+/*# sourceMappingURL=index.css.map */

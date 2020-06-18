@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  vertical-align: middle;
+}
+
+input {
+  outline: none;
+  border: none;
+}
+
+html {
+  font-size: 13.33vw;
+}
+
+@media (min-width: 750px) {
+  html {
+    width: 750px;
+    margin: 0 auto;
+    font-size: 100px;
+  }
+}
+
+@media (max-width: 320px) {
+  html {
+    width: 320px;
+    overflow: auto;
+    font-size: 42.656px;
+  }
+}
+/*# sourceMappingURL=common.css.map */

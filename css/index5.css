@@ -1,0 +1,56 @@
+.container {
+  background-color: #ffffff;
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+
+.container .header img {
+  width: 100%;
+  height: 3.73rem;
+}
+
+.container .content {
+  padding: 0.4rem 0.33rem 0.28rem 0.33rem;
+  font-size: 0.27rem;
+}
+
+.container .content .content1 {
+  font-size: 0.32rem;
+  font-weight: bold;
+  color: #ea8e00;
+}
+
+.container .content .content3 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-top: 0.01rem solid #efefef;
+  margin-top: 0.1rem;
+  padding: 0.1rem 0 0.1rem 0;
+}
+
+.container .content .content3 .content3-right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .content .content3 .content3-right img {
+  width: 0.68rem;
+  height: 0.68rem;
+  border-radius: 50%;
+}
+/*# sourceMappingURL=index5.css.map */

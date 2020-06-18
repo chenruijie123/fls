@@ -1,0 +1,116 @@
+body {
+    width: 100vw;
+    height: 100vh;
+    background: url('../imgs/28.png')no-repeat;
+    background-size: 100% 100%;
+    font-size: 0.2rem;
+    position: relative;
+    .logo {
+        position: absolute;
+        top: 0.2rem;
+        z-index: 9;
+        width: 2.38rem;
+        height: 0.65rem;
+        left: -0.5rem;
+        top: 0.27rem
+    }
+    .rule {
+        width: 1.82rem;
+        height: 0.58rem;
+        background-color: #ffffff;
+        border-radius: 0.28rem 0 0 0.28rem;
+        opacity: 0.5;
+        position: absolute;
+        z-index: 9;
+        top: 0.38rem;
+        right: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .juan {
+        position: absolute;
+        bottom: 2.2rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5.46rem;
+        height: 0.84rem;
+        background-color: #fabc5b;
+        box-shadow: 5px 9px 18px 0px rgba(237, 188, 127, 0.75);
+        border-radius: 0.42rem;
+        text-align: center;
+        line-height: 0.84rem;
+        color: #cc5627;
+        font-size: 0.34rem;
+    }
+    .kt {
+        position: absolute;
+        bottom: 1.1rem;
+        left: 50%;
+        transform: translateX(-50%);
+        width: 5.46rem;
+        height: 0.84rem;
+        background-color: #fabc5b;
+        box-shadow: 5px 9px 18px 0px rgba(237, 188, 127, 0.75);
+        border-radius: 0.42rem;
+        text-align: center;
+        line-height: 0.84rem;
+        color: #cc5627;
+        font-size: 0.34rem;
+    }
+}
+
+.container {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.68);
+    z-index: 999;
+    // img{
+    //     width: 100%;
+    //     height: 100%;
+    // }
+    .flag {
+        position: absolute;
+        width: 5.97rem;
+        height: 8.04rem;
+        background-color: #fbf0fe;
+        border-radius: 0.4rem;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        padding: 0.32rem 0.43rem 1.03rem 0.43rem;
+        box-sizing: border-box;
+        font-size: 0.28rem;
+        background: url('../imgs/24.png')no-repeat;
+        background-size: contain;
+        .list1 {
+            font-size: 0.48rem;
+            text-align: center;
+            margin-bottom: 0.45rem;
+        }
+        .list2 {
+            line-height: 0.46rem;
+        }
+        .list3 {
+            line-height: 0.46rem;
+        }
+        .list4 {
+            font-size: 0.21rem;
+            margin-top: 0.07rem;
+        }
+        span {
+            color: #ff515e;
+        }
+        img {
+            position: absolute;
+            bottom: -1rem;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 0.7rem;
+            height: 0.7rem;
+        }
+    }
+}
